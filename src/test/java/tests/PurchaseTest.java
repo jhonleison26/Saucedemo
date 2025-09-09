@@ -4,10 +4,14 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
-import pages.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pages.LoginPage;
+import pages.InventoryPage;
+import pages.CartPage;
+import pages.CheckoutPage;
+import pages.CheckoutCompletePage;
 
 public class PurchaseTest {
     WebDriver driver;
