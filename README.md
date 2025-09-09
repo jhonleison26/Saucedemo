@@ -22,3 +22,11 @@ Este proyecto implementa un framework de automatización de pruebas para la apli
     - Realiza login en la aplicación.
     - Usa el menú lateral para cerrar sesión.
     - Valida que el usuario sea redirigido correctamente a la página de login.
+
+## Ejecución de Pruebas
+1. Clona este repositorio.
+2. Asegúrate de tener Java y Maven instalados.
+3. Navega al directorio del proyecto y ejecuta:
+4. ```bash
+   mvn clean test
+   ```
